@@ -109,7 +109,7 @@ for ($i = 0; $i < 30; $i++) {
         echo "SUCCESS: Created '$current_name' (ID: $p_id). ";
 
         $meta_payload = [
-            "permission_set" => "write",
+            "permission_set" => "read_and_sf_access",
             "namespace" => "Technical Data",
             "key" => "technical_specs",
             "value" => json_encode($metafield_value),
